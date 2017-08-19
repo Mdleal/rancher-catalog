@@ -1,0 +1,9 @@
+version: '2'
+catalog:
+  name: "RabbitMQ + MQTT"
+  version: "0.50.2"
+  description: "Open source message broker with MQTT and admin panel add-ons"
+services:
+  rabbitmq-mqtt:
+    scale: 1
+    start_on_create: true

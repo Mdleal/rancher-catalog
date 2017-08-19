@@ -1,0 +1,8 @@
+name: Home Assistant
+description: |
+  A Docker image for rabbtimq with mqtt and admin panel enabled
+version: "3.6"
+category: Automation
+maintainer: Chris Kacerguis
+license: Apache 2.0
+projectURL: https://www.rabbitmq.com
