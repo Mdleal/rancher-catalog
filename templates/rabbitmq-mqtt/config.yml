@@ -3,6 +3,4 @@ description: |
   A Docker image for Rabbtimq with MQTT and admin panel enabled
 version: "3.6"
 category: Automation
-maintainer: Chris Kacerguis
-license: Apache 2.0
 projectURL: https://www.rabbitmq.com
