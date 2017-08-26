@@ -1,0 +1,9 @@
+version: '2'
+catalog:
+  name: YouTrack
+  version: "2017.3.35488"
+  description: "Issue tracker designed for development teams"
+services:
+  youtrack:
+    scale: 1
+    start_on_create: true

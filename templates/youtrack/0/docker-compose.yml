@@ -1,0 +1,13 @@
+version: '2'
+services:
+  youtrack:
+    image: uniplug/youtrack:2017.3.35488
+    stdin_open: true
+    volumes:
+    - /opt/youtrack/data/:/opt/youtrack/data/
+    - /opt/youtrack/backup/:/opt/youtrack/backup/
+    tty: true
+    ports:
+    - 80:80/tcp
+    labels:
+      io.rancher.container.pull_image: always
