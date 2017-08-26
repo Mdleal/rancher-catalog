@@ -1,0 +1,9 @@
+version: '2'
+catalog:
+  name: "Eclipse Mosquitto"
+  version: "1.4.12"
+  description: "Eclipse Mosquitto is an open source message broker which implements MQTT version 3.1 and 3.1.1"
+services:
+  mosquitto:
+    scale: 1
+    start_on_create: true
