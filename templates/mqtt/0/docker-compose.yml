@@ -1,12 +1,11 @@
 version: '2'
 services:
   rabbitmq-mqtt:
-    image: cyrilix/rabbitmq-mqtt:latest
+    image: ncarlier/mqtt:latest
     stdin_open: true
     network_mode: host
     tty: true
     ports:
-    - 15672:15672/tcp
     - 1883:1883/tcp
     labels:
       io.rancher.container.pull_image: always

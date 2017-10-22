@@ -1,6 +1,0 @@
-name: RabbitMQ + MQTT
-description: |
-  A Docker image for Rabbtimq with MQTT and admin panel enabled
-version: "3.6"
-category: Automation
-projectURL: https://www.rabbitmq.com
