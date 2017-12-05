@@ -1,6 +1,6 @@
 version: '2'
 services:
-  rabbitmq-mqtt:
+  mqtt:
     image: ncarlier/mqtt:latest
     stdin_open: true
     network_mode: host
