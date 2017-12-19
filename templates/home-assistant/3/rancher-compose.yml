@@ -14,7 +14,7 @@ catalog:
     - variable: "config_path"
       label: "Config path"
       description: |
-        The mounted location of your Home Assistant config files
+        The host location of your Home Assistant config files
       type: "string"
       default: "/opt/homeassistant"
       required: true
